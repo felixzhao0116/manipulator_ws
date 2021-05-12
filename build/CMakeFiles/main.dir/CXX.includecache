@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/felixzhao/workspace/manipulator_ws/src/motion_planning/include/AProbotconfig.h
+
+/home/felixzhao/workspace/manipulator_ws/src/motion_planning/include/MotionPlan.h
+vector
+-
+string
+/home/felixzhao/workspace/manipulator_ws/src/motion_planning/include/string
+
+/home/felixzhao/workspace/manipulator_ws/src/motion_planning/src/MotionPlan.cpp
+iostream
+-
+fstream
+-
+MotionPlan.h
+/home/felixzhao/workspace/manipulator_ws/src/motion_planning/src/MotionPlan.h
+AProbotconfig.h
+/home/felixzhao/workspace/manipulator_ws/src/motion_planning/src/AProbotconfig.h
+algorithm
+-
+math.h
+/home/felixzhao/workspace/manipulator_ws/src/motion_planning/src/math.h
+eigen3/Eigen/Dense
+/home/felixzhao/workspace/manipulator_ws/src/motion_planning/src/eigen3/Eigen/Dense
+

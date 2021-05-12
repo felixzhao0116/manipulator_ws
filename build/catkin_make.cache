@@ -1,0 +1,2 @@
+motion_planning
+-DCATKIN_DEVEL_PREFIX=/home/felixzhao/workspace/manipulator_ws/devel -DCMAKE_INSTALL_PREFIX=/home/felixzhao/workspace/manipulator_ws/install -G Unix Makefiles
